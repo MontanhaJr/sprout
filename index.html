@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Launch a bouncing water drop, revive plants and dodge fiery hazards.">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+                         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            background: #f5f7f6;
+            color: #222;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 40px 32px;
+            max-width: 480px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            color: #16a085;
+        }
+
+        p {
+            margin-top: 16px;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .highlight {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .links {
+            margin-top: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .play-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 14px 18px;
+            border-radius: 12px;
+            background: #16a085;
+            color: #ffffff;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .play-button img {
+            width: 22px;
+            height: 22px;
+        }
+
+        .play-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(22, 160, 133, 0.35);
+        }
+
+        .secondary-link {
+            text-decoration: none;
+            font-weight: 600;
+            color: #16a085;
+        }
+
+        .secondary-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 28px;
+            font-size: 0.85rem;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="logo.png" alt="Sprout logo" class="logo">
+
+    <h1>Sprout</h1>
+
+    <p>
+        Lance uma gota d'água saltitante, 
+        <span class="highlight">reviva plantas</span> 
+        e desvie de 
+        <span class="highlight">perigos flamejantes</span>.
+    </p>
+
+    <p>
+        Explore fases desafiadoras, devolva a vida à vegetação e teste sua agilidade para sobreviver aos obstáculos de fogo.
+    </p>
+
+    <div class="links">
+
+        <a
+            class="play-button"
+            href="https://play.google.com/store/apps/details?id=com.montanhajr.sprout"
+            target="_blank"
+            rel="noopener"
+        >
+            <img src="google-play.png" alt="Google Play">
+            Baixar no Google Play
+        </a>
+
+        <a class="secondary-link" href="privacy-policy.html">
+            Política de Privacidade
+        </a>
+
+    </div>
+
+    <footer>
+        © 2026 MontanhaJr Dev
+    </footer>
+
+</div>
+
+</body>
+</html>
